@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Language" content="it">
+<title>Sito della Banda Refolo</title>
+
+<!-- Audio legacy + fallback -->
+<bgsound src="midi/RADETZKI.mid" loop="infinite">
+<audio src="midi/RADETZKI.mid" autoplay loop hidden></audio>
+
+<style>
+/* STILI ORIGINALI INVARIATI */
+.style1 { text-align: right; }
+.style2 { margin-left: 22px; }
+.style3 { font-size: small; color: #000080; font-weight: bold; }
+.style4 { font-size: small; font-weight: bold; }
+.style5 { font-size: small; color: #000080; }
+.style6 { color: #000080; }
+.style9 { font-weight: bold; font-size: x-small; }
+.style10 { text-align: center; }
+.style11 { text-decoration: none; }
+.style12 { font-size: small; font-weight: bold; text-align: left; }
+.style13 { font-size: medium; color: #000000; font-weight: bold; }
+.style14 { font-size: medium; color: #0000FF; font-weight: bold; }
+.style17 { font-size: x-small; color: #000080; font-weight: bold; }
+.style18 { font-size: x-small; color: #000080; }
+.style19 { font-size: x-small; }
+.style21 { font-size: medium; font-weight: bold; }
+.style22 { margin-right: 3px; }
+.style23 { font-family: "Comic Sans MS"; }
+.style24 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  color: #000080;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 168px;
+}
+.style25 { margin-left: 640px; }
+.style26 { margin-left: 0px; }
+.style27 {
+  font-weight: bold;
+  font-size: x-small;
+  color: #800000;
+  margin-left: 382px;
+}
+.style29 { font-size: xx-large; }
+.style30 { margin-left: 504px; }
+.style32 {
+  text-align: center;
+  font-size: small;
+  color: #000080;
+  font-weight: bold;
+}
+.style33 { font-size: medium; font-weight: bold; text-align: left; }
+.style34 {
+  font-weight: bold;
+  font-size: x-small;
+  color: #800000;
+  text-align: center;
+  margin-left: 0;
+}
+.style35 { text-decoration: underline; }
+</style>
+</head>
+
+<body background="_themes/tidepool/tidbkgde.jpg" bgcolor="#6699FF"
+text="#000000" link="#330099" vlink="#336633" alink="#FFCC00">
+
+<!-- HEADER -->
+<p align="center">
+  <img src="images/Logo.gif" width="76" height="102">
+  <img src="images/titolo_kucer.gif" width="640" height="101">
+  <img src="images/Logo.gif" width="76" height="102">
+</p>
+
+<!-- MENU -->
+<table align="center">
+<tr>
+<td align="center"><a href="WIP.html"><img src="images/pulsante_Home.gif"></a></td>
+<td align="center"><a href="WIP.html"><img src="images/pulsante_Foto.gif"></a></td>
+<td align="center"><a href="WIP.html"><img src="images/pulsante_info.gif"></a></td>
+<td align="center"><a href="WIP.html"><img src="images/pulsante_Direttivo.gif"></a></td>
+<td align="center"><a href="WIP.html"><img src="images/pulsante_benvenuti.gif"></a></td>
+<td align="center"><a href="WIP.html"><img src="images/pulsante_Servizi.gif"></a></td>
+</tr>
+</table>
+
+<!-- CONTENUTO PRINCIPALE -->
+<div align="center" style="max-width:1200px;margin:auto;">
+
+<h1 style="font-family:Arial;color:#000080;">
+Sito della "BANDA REFOLO" di Trieste
+</h1>
+<p align="center">
+<b>
+<a href="#">
+<font face="Arial" size="3" color="#800000">
+<span id="lastUpdate"></span> - data e ora ultima modifica
+</font>
+</a>
+</b>
+</p>
+
+<script>
+(function() {
+  const giorni = ["domenica","lunedì","martedì","mercoledì","giovedì","venerdì","sabato"];
+  const mesi = ["gennaio","febbraio","marzo","aprile","maggio","giugno",
+                "luglio","agosto","settembre","ottobre","novembre","dicembre"];
+
+  const now = new Date();
+
+  const testo = giorni[now.getDay()] + " " +
+                now.getDate() + " " +
+                mesi[now.getMonth()] + " " +
+                now.getFullYear() + " " +
+                String(now.getHours()).padStart(2,'0') + "." +
+                String(now.getMinutes()).padStart(2,'0');
+
+  document.getElementById("lastUpdate").textContent = testo;
+})();
+</script>
+
+<p style="font-size:12px;color:#800000;">
+Tutte le informazioni inserite saranno considerate confidenziali e sempre nel 
+rispetto della regole di riservatezza e di sicurezza previste dalla legge. I 
+vostri dati saranno trattati in base a norma del Decreto Legge n. 108 del 10 
+agosto 2018. I dati non saranno divulgati ad altri o diffusi in alcun modo ne 
+ceduti a terzi se non chiedendole espressamente il consenso. Per qualsiasi 
+ulteriore informazione riferita a questo argomento la preghiamo di contattarci.
+</p>
+<p align="center" style="width: 1209px; height: 46px" class="style34">
+                  <span style="font-family:Arial;mso-fareast-font-family:&quot;Times New Roman&quot;;
+color:maroon;mso-ansi-language:IT;mso-fareast-language:IT;mso-bidi-language:
+AR-SA" class="style9">
+                  <font color="#008000" face="cursive">
+                  <span class="style21">Nel sito della Banda Refolo non ci sono dati sensibili ai sensi del 
+            Decreto Legge n.108 del 10 agosto 2018</span></font></span></p>
+
+<h2 style="color:#0000FF;">REFOLO: colpo di vento</h2>
+
+<p class="style33">
+Refolo: colpo di vento breve ed impetuoso. Folata, raffica.
+              Così leggiamo sul&quot;Piccolo Palazzi&quot;consueto vocabolario
+              per parole inconsuete. Per i non triestini è un pò difficile
+              capire che cosa sia un refolo. Ma chi con la bora ha incontri
+              periodici, vi saprà quantomeno spiegare a gesti che cosa sia un
+              refolo.<br>
+              Quando la bora scende impetuosa dal Carso triestino e si incunea
+              nelle vie cittadine, il refolo prende corpo, si gonfia, spinge,
+              urta, lotta con l'incauto passante tentando di sommergerlo, di
+              togliergli l'equilibrio, di portarlo con sé.<br>
+              Se trova resistenza preme ancora di più, si mette in gara e ti
+              porta al punto critico: a questo punto c'è da chiedersi &quot;chi
+              vincerà?&quot;.&nbsp;Ma il refolo, che gioca come un qualsiasi
+              mulo triestino, a un certo momento molla la presa e ti lascia
+              cadere in avanti.<br>
+              C'è anche il refolo leggero, quello delle giornate di
+              borino.&nbsp;E' uno sbarazzino, un ragazzetto che ti accarezza o
+              ti da un leggero buffetto, così per celia. Il refolo di borino ti
+              innalza e ti fa ricadere ma sempre con dolcezza, che scherza ma
+              con mano leggera.<br>
+              C'è il refolo cattivo, figlio della bora nera, un vero
+              &quot;teddy boy&quot; che non si ferma davanti a nulla, che sa
+              anche farti male. Ma è raro incontrarlo, per nostra fortuna. C'è
+              un refolo. Anzi ci sono tanti &quot;refoli&quot;. Ma...c'è una
+              sola &quot;REFOLO&quot; e racchiude in se le caratteristiche della
+              bora di cui è figlia adottiva. E' una banda che sa accarezzarti,
+              schiaffeggiarti, sollevarti, dolcemente o aspramente.<br>
+              Il refolo di bora e la&nbsp; &quot;Banda Refolo&quot;: due aspetti
+              dell'immagine della nostra città, due facce indissolubili dello
+              spirito che ci anima.
+
+</p>
+
+<p class="style1"><strong>RUGGERO PAGHI</strong></p>
+
+</div>
+
+<tr>
+<td width="181" height="69" valign="middle" align="center">
+<font face="Comic Sans MS, Arial, Helvetica">
+</font>
+</td>
+
+<td height="143" rowspan="4" colspan="6" valign="top" align="left">
+<font face="Comic Sans MS, Arial, Helvetica">
+
+<p align="center">
+<img src="_themes/tidepool/tidrulee.gif" width="600" height="10" alt="horizontal rule">
+</p>
+
+<p align="center" style="width:1341px;">
+&nbsp;
+</p>
+
+<p align="center" style="width:1341px;">
+<font face="Arial">
+<span class="style13">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>
+<span class="style14">
+Contatti urgenti con i responsabili della "Banda Refolo"
+</span>
+</font>
+</p>
+
+<p align="center" style="width:1341px;">
+&nbsp;
+</p>
+
+<!-- CONTATTI -->
+<blockquote style="width:1379px; height:115px;" class="style22">
+
+<p style="width:1402px; height:54px;" class="style10">
+<b><font color="#000000">Presidente</font></b>:
+<b>
+<a href="mailto:bandarefolotrieste@gmail.com">Contatta il Presidente</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="mailto:bandarefolotrieste@gmail.com">Webmaster</a>
+</b>
+</p>
+
+<p style="width:1392px;" class="style10">
+<b>
+<font color="#000000">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Maestro:
+</font>
+<a href="mailto:bandarefolotrieste@gmail.com">Contatta il Maestro</a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="mailto:bandarefolotrieste@gmail.com">Contatta il segretario e responsabile del sito</a>
+</b>
+</p>
+
+<p class="style10">&nbsp;</p>
+
+</blockquote>
+
+<p align="center">
+<img src="_themes/tidepool/tidrulee.gif" width="600" height="10" alt="horizontal rule">
+</p>
+
+<p align="center">
+<strong>
+<font face="Arial" size="4" color="#008000">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</font>
+</strong>
+</p>
+
+</font>
+</td>
+</tr>
+
+
+<!-- SCRIPT CORRETTO -->
+<tr>
+<td width="181" height="69" valign="middle" align="center">
+<font face="Comic Sans MS, Arial, Helvetica">
+</font>
+</td>
+
+<td height="169" colspan="6" rowspan="3" valign="bottom" align="left">
+<font face="Comic Sans MS, Arial, Helvetica">
+
+<blockquote style="width:1219px;" class="style10">
+
+<p class="style10" style="width:990px; height:40px;">
+<span class="style3">
+Aggiunto motore di ricerca " Google "
+</span>
+</p>
+
+<!-- ✅ RICERCA GOOGLE FUNZIONANTE -->
+<p class="style32" style="width:990px; height:40px;">
+<form method="get" action="https://www.google.com/search" target="_blank" style="margin:0;">
+  <input type="text" name="q" size="30" style="font-family:Arial; font-size:12px;">
+  <input type="submit" value="Cerca" style="font-family:Arial; font-size:12px;">
+</form>
+</p>
+
+<p class="style10" style="width:990px; height:40px;">
+ARRIVEDERCI: Il sito verrà aggiornato
+periodicamente, quindi tornate a visitarci.
+</p>
+
+<p class="style10" style="width:990px; height:40px;">
+
+<span class="style4">
+<span class="style6">
+<a class="style11" href="WIP.html">
+<img border="0" src="images/pulsante_webmaster.jpg" width="120" height="23">
+</a>
+</span>
+</span>
+
+<span class="style3">
+&nbsp; Profilo del webmaster del sito della Banda Refolo fino al 2015
+</span>
+
+</p>
+
+</blockquote>
+
+</font>
+</td>
+</tr>
+
+</body>
+</html>
